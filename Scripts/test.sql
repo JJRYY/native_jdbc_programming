@@ -12,6 +12,7 @@ select * from employee;
 
 delete from title where tno = 6;
 delete from department where deptno = 5;
+delete from employee where empno = 1004;
 
 select tno,tname from title;
 select deptno, deptname, floor from department;
